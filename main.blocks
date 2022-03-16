@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="*E#Ca^}~D-vz%#86g;Su">If a is pressed</variable><variable id="vIW}Yw]C^r2xWUtt%B/K">Timer</variable><variable id="g,eNT?;N%}Y-`bI(LcF6">If timer finished</variable><variable id="z%ocspz8@7E/r(le!#}6">Set timer</variable><variable id="8ddc6NzR@2-)e,14x/d0">30 seconds</variable></variables><block type="pxt-on-start" id="(OYPT77oC}=6sb`Xo.yG" x="-536" y="-423"><statement name="HANDLER"><block type="device_show_leds" id=";NyrS4,-If-TknzV9qL5"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_start_melody" id="pKM:2~LhZfbuat130}!S"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="v;SG!qPW9sdS:T.nXno`"><field name="melody">Melodies.Nyan</field></block></value></block></next></block></statement></block><block type="device_gesture_event" id="RN%O187Y3rHEJ^jyzdAn" x="-29" y="-431"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="U=ey@c:pqQHef]+tr(+R"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block><block type="device_button_event" id="kOx^Y^i+8BG0/;D#)Q0/" x="-541" y="-9"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="3yV~;LzcK9ZYZX),pC{~"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="controls_repeat_ext" id="(kE:oULJl(~y~wJxl12i"><value name="TIMES"><shadow type="math_whole_number" id="/QAv9/8Ri8K,Rx@x:iPG"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="variables_set" id="$ox6_%g)0cr6:/_:lmn0"><field name="VAR" id="z%ocspz8@7E/r(le!#}6">Set timer</field><value name="VALUE"><shadow type="math_number" id="]:*fHqticOg`BN.B,gJ]"><field name="NUM">0</field></shadow></value><next><block type="device_pause" id="C3Mc7No5oQTg?Y4`D{w."><value name="pause"><shadow type="timePicker" id=":`(r;U-w2Z2Yw!j.o=**"><field name="ms">5000</field></shadow></value><next><block type="variables_change" id="kk7=[U5{G~.~woK^9T:L"><field name="VAR" id="vIW}Yw]C^r2xWUtt%B/K">Timer</field><value name="VALUE"><shadow type="math_number" id="W?AZo5@b0Z#,*a=kK89F"><field name="NUM">1</field></shadow></value><next><block type="device_start_melody" id=".@EDV:f7Vp_;tKQ2e*a)"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="@nBo:Bl})%eky*kBXZ4Y"><field name="melody">Melodies.PowerDown</field></block></value><next><block type="controls_repeat_ext" id="`fhyzzsIfFUJPV^dZTaS"><value name="TIMES"><shadow type="math_whole_number" id="i=qTH?r$LJ-!L+eAUc[o"><field name="NUM">10</field></shadow></value><statement name="DO"><block type="device_show_leds" id="-bh?pSFlGh`6g)tlj^9t"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="1UHj6dFJ|V(.j28}~XE="><field name="LEDS">`
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        . # . # . 
+        . # # # .
+        `</field></block></next></block></statement></block></next></block></next></block></next></block></next></block></statement></block></next></block></statement></block><block type="device_gesture_event" id="Ey.Ys(W(6LVP:QnAKw|z" x="0" y="0"><field name="NAME">Gesture.FreeFall</field><statement name="HANDLER"><block type="device_show_leds" id="@gXpiS$LWmGVD|/?SkPS"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="device_start_melody" id="bKL3wkDPT=Q/_:7;uA8/"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="YOv~rcLRMN_xyH1oO3.("><field name="melody">Melodies.Funeral</field></block></value></block></next></block></statement></block><block type="controls_if" id="$,^dx3)InfV/zg8$`ovs" disabled="true" x="-828" y="434"><value name="IF0"><shadow type="logic_boolean" id="0[g;kFBZb$g}Ub@]foMd" disabled="true"><field name="BOOL">TRUE</field></shadow></value></block></xml>
